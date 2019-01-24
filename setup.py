@@ -46,8 +46,8 @@ setup(
         'Topic :: Scientific/Engineering',
         'Programming Language :: Python :: 3',
     ],
-    setup_requires=['numpy'],
-    install_requires=['numpy'],
+    setup_requires=['numpy', 'pybind11', 'mako', 'jinja2', 'matplotlib', 'pyopencl'],
+    install_requires=['numpy', 'pybind11', 'mako', 'jinja2', 'matplotlib', 'pyopencl'],
     keywords='newton basins',
     project_urls={
         'Bug Reports': 'https://github.com/gmagno/nb-ocl/issues',
